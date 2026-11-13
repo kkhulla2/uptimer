@@ -28,8 +28,8 @@ Uptimer periodically checks your websites and APIs, notifies you in Telegram whe
 ## Roadmap
 
 ### Stage 1 — MVP
-- [ ] FastAPI app with `/health` endpoint
-- [ ] Dockerfile (multi-stage, non-root)
+- [x] FastAPI app with `/health` endpoint
+- [x] Dockerfile (multi-stage, non-root)
 - [ ] PostgreSQL models + monitors CRUD API
 - [ ] Background worker for scheduled checks
 - [ ] Telegram notifications
