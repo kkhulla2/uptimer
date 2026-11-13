@@ -1,0 +1,14 @@
+.venv/
+.env
+.git/
+.gitignore
+.gitattributes
+Dockerfile
+README.md
+**/__pycache__
+*.pyc
+.idea/
+.vscode/
+LICENSE
+.dockerignore
+.pytest_cache/
