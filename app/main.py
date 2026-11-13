@@ -1,4 +1,5 @@
-import fastapi, uvicorn
+import fastapi
+import uvicorn
 
 app = fastapi.FastAPI()
 
@@ -8,4 +9,4 @@ async def read_root():
 
 @app.get("/health")
 async def check_health():
-    return({'status': str(fastapi.status.HTTP_200_OK)})
+    return {'status': 'ok'}
